@@ -12,7 +12,10 @@ html, body{
     height: 300px;
     width: 450px;
    }
-.footer{
-    
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 150px;
 }
    
