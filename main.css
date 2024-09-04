@@ -8,13 +8,20 @@ background-color: #5bd46a
 
 }
 
-.cad, .hist {
-    background: aliceblue;
+.mainBtn {
+    width: 900px;
     display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 350px;
-    text-align: center;
-    justify-content: center;
-    
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.botao {
+    width: 400px;
+    height: 400px;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
 }

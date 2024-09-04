@@ -5,17 +5,54 @@ html, body{
     justify-content:center;
     align-items: center;
     }
+
+    body {
+        background: rgba(0, 0, 0, 0.6323);
+    }
 .main {
-    background: #5bd46a;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.144) ;
+    color: black;
    }
+
+.main >h1{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
 footer {
    display: flex;
    justify-content: center;
    align-items: center;
    height: 150px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.13)
+    
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
    
