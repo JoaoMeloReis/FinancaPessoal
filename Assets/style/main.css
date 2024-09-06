@@ -1,0 +1,27 @@
+html, body{
+height: 100%;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #5bd46a
+
+}
+
+.mainBtn {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.botao {
+    width: 400px;
+    height: 400px;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+}
